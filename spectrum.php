@@ -2,8 +2,8 @@
 
 ! defined( 'SPECTRUM_DIR' )        ? define( 'SPECTRUM_DIR', dirname( __FILE__ ) ) : '';
 ! defined( 'SPECTRUM_SCHEME_DIR' ) ? define( 'SPECTRUM_SCHEME_DIR', dirname( __FILE__ ) . '\\schemes\\' ) : '';
-! defined( 'SPECTRUM_URI' )        ? define( 'SPECTRUM_DIR', str_replace( dirname( __FILE__ ), ABSPATH, SPECTRUM_DIR ) ) : '';
-! defined( 'SPECTRUM_SCHEME_URI' ) ? define( 'SPECTRUM_SCHEME_DIR', SPECTRUM_URI . '/schemes/' ) : '';
+! defined( 'SPECTRUM_URI' )        ? define( 'SPECTRUM_URI', str_replace( dirname( __FILE__ ), ABSPATH, SPECTRUM_DIR ) ) : '';
+! defined( 'SPECTRUM_SCHEME_URI' ) ? define( 'SPECTRUM_SCHEME_URI', SPECTRUM_URI . '/schemes/' ) : '';
 
 include_once( 'class/Spectrum.php' );
 
